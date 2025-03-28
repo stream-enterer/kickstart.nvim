@@ -1,7 +1,8 @@
 return {
   {
-    'S1M0N38/love2d.nvim',
+    'stream-enterer/love2d.nvim',
     cmd = 'LoveRun',
+    lazy = false,
     opts = {},
     keys = {
       { '<leader>v', ft = 'lua', desc = 'LÖVE' },
